@@ -1,0 +1,11 @@
+package lecture.section02.user_exception.exception;
+
+public class PriceNegativeException extends NegativeException {
+    public PriceNegativeException() {
+
+    }
+
+    public PriceNegativeException(String message) {
+        super(message);
+    }
+}
